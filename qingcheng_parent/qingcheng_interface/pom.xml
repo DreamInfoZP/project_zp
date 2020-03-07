@@ -11,5 +11,11 @@
 
     <artifactId>qingcheng_interface</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.zp</groupId>
+            <artifactId>qingcheng_pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

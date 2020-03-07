@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qc_servcie_goods" />
+        <module name="qc_web_manager" />
+        <module name="qc_pojo" />
+        <module name="qc_common" />
+        <module name="qc_interface" />
+        <module name="qc_common_web" />
+        <module name="qc_common_service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

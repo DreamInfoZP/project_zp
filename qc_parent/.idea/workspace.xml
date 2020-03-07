@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d33b642e-5c2f-4177-81f2-5e29a5c74aef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/qc_common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common/src/main/resources/applicationContext-common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common/src/main/resources/zk.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common_service/src/main/resources/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common_service/src/main/resources/applicationContext-dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common_service/src/main/resources/applicationContext-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common_service/src/main/resources/redis-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common_web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common_web/src/main/resources/applicationContext-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common_web/src/main/resources/applicationContext-dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_interface/src/main/java/com/zp/service/goods/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_pojo/src/main/java/com/zp/pojo/goods/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_servcie_goods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_servcie_goods/src/main/java/com/zp/dao/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_servcie_goods/src/main/java/com/zp/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_servcie_goods/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_servcie_goods/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_servcie_goods/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_web_manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_web_manager/src/main/java/com/zp/controller/goods/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_web_manager/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_web_manager/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common/src/main/resources/applicationContext-common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common/src/main/resources/zk.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/doc/sql/goods.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/src/main/resources/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/src/main/resources/applicationContext-dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/src/main/resources/applicationContext-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/src/main/resources/redis-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_web/src/main/resources/applicationContext-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_web/src/main/resources/applicationContext-dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_interface/src/main/java/com/zp/service/goods/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_pojo/src/main/java/com/zp/pojo/goods/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/qingcheng_service_goods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/src/main/java/com/zp/dao/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/src/main/java/com/zp/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_web_manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_web_manager/qingcheng_web_manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_web_manager/src/main/java/com/zp/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_web_manager/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_web_manager/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/qingcheng_common_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/qingcheng_common_service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_web/qingcheng_common_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_web/qingcheng_common_web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_interface/qingcheng_interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_interface/qingcheng_interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_pojo/qingcheng_pojo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_pojo/qingcheng_pojo.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../File/SoftwareConfig/Maven/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YnYKcES7cx2Z0mBYzNh2PuOi3O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qc_common" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/qc_web_manager/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/qc_web_manager/src/main/resources" />
+      <recent name="$PROJECT_DIR$/qc_servcie_goods/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/qc_servcie_goods/src/main/resources" />
+      <recent name="$PROJECT_DIR$/qc_common_web/src/main/resources" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d33b642e-5c2f-4177-81f2-5e29a5c74aef" name="Default Changelist" comment="" />
+      <created>1583579763001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583579763001</updated>
+      <workItem from="1583579766485" duration="4780000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="808" y="174" key="#Project_Structure" timestamp="1583583558119">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="808" y="174" key="#Project_Structure/0.23.1680.971@0.23.1680.971" timestamp="1583583558119" />
+    <state x="1021" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1583584240206">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="1021" y="225" key="#com.intellij.ide.util.MemberChooser/0.23.1680.971@0.23.1680.971" timestamp="1583584240206" />
+    <state x="370" y="111" key="CommitChangelistDialog2" timestamp="1583587215286">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="370" y="111" key="CommitChangelistDialog2/0.23.1680.971@0.23.1680.971" timestamp="1583587215286" />
+    <state width="1638" height="303" key="GridCell.Tab.0.bottom" timestamp="1583586717463">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="303" key="GridCell.Tab.0.bottom/0.23.1680.971@0.23.1680.971" timestamp="1583586717463" />
+    <state width="1638" height="303" key="GridCell.Tab.0.center" timestamp="1583586717463">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="303" key="GridCell.Tab.0.center/0.23.1680.971@0.23.1680.971" timestamp="1583586717463" />
+    <state width="1638" height="303" key="GridCell.Tab.0.left" timestamp="1583586717462">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="303" key="GridCell.Tab.0.left/0.23.1680.971@0.23.1680.971" timestamp="1583586717462" />
+    <state width="1638" height="303" key="GridCell.Tab.0.right" timestamp="1583586717463">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="303" key="GridCell.Tab.0.right/0.23.1680.971@0.23.1680.971" timestamp="1583586717463" />
+    <state x="698" y="147" key="SettingsEditor" timestamp="1583586574007">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="698" y="147" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1583586574007" />
+    <state x="432" y="238" width="816" height="540" key="find.popup" timestamp="1583586196218">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="432" y="238" width="816" height="540" key="find.popup/0.23.1680.971@0.23.1680.971" timestamp="1583586196218" />
+    <state x="434" y="206" key="new project wizard" timestamp="1583584020076">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="434" y="206" key="new project wizard/0.23.1680.971@0.23.1680.971" timestamp="1583584020076" />
+  </component>
+</project>
