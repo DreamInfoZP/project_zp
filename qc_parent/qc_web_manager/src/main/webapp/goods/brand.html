@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>品牌管理</title>
+</head>
+<body>
+<script src="../js/vue.js"></script>
+<script src="../js/elementui.js"></script>
+<script src="../js/axios.js"></script>
+
+<div id="app">
+
+</div>
+
+<script>
+    new Vue({
+        e1: "#app",
+        data() {
+            return {
+                tableDate: []
+            }
+        },
+        created() {
+            axios.get("/brand/findAll.do").then(response => {
+               this.tableDate = response.data;
+            })
+        }
+    });
+</script>
+
+</body>
+</html>

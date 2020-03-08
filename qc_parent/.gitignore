@@ -29,5 +29,4 @@ nbdist/
 
 ### vscode
 .vscode
-.classpath
-.factorypath
+/qc_common/target/

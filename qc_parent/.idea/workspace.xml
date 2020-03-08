@@ -1,51 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d33b642e-5c2f-4177-81f2-5e29a5c74aef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/sql/goods.sql" afterDir="false" />
+    <list default="true" id="d33b642e-5c2f-4177-81f2-5e29a5c74aef" name="Default Changelist" comment="代码升级 清理配置文件">
+      <change afterPath="$PROJECT_DIR$/doc/nose/前端相关知识.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common/src/main/java/com/zp/finals/TableConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_common_web/src/main/java/com/zp/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_pojo/src/main/java/com/zp/entity/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_pojo/src/main/java/com/zp/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_web_manager/src/main/webapp/css/elementui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_web_manager/src/main/webapp/css/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_web_manager/src/main/webapp/goods/brand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_web_manager/src/main/webapp/js/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_web_manager/src/main/webapp/js/elementui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qc_web_manager/src/main/webapp/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common/qingcheng_common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common/src/main/resources/applicationContext-common.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common/src/main/resources/zk.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/doc/sql/goods.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/qingcheng_common_service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/src/main/resources/applicationContext-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/src/main/resources/applicationContext-dubbo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/src/main/resources/applicationContext-redis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_service/src/main/resources/redis-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_web/qingcheng_common_web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_web/src/main/resources/applicationContext-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_common_web/src/main/resources/applicationContext-dubbo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_interface/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_interface/qingcheng_interface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_interface/src/main/java/com/zp/service/goods/BrandService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_parent.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_pojo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_pojo/qingcheng_pojo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_pojo/src/main/java/com/zp/pojo/goods/Brand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/qingcheng_service_goods.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/src/main/java/com/zp/dao/BrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/src/main/java/com/zp/service/impl/BrandServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/src/main/resources/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/src/main/resources/dubbo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_service_goods/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_web_manager/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_web_manager/qingcheng_web_manager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_web_manager/src/main/java/com/zp/controller/goods/BrandController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_web_manager/src/main/resources/dubbo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qingcheng_parent/qingcheng_web_manager/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/qc_common/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qc_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common/target/classes/applicationContext-common.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common/target/classes/zk.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common/target/qc_common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/qc_common_service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_service/target/classes/applicationContext-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_service/target/classes/applicationContext-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_service/target/classes/applicationContext-redis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_service/target/classes/redis-config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_service/target/qc_common_service-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/qc_common_web/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_web/target/classes/applicationContext-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_web/target/classes/applicationContext-dubbo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_web/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_common_web/target/qc_common_web-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_interface/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/qc_interface/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_interface/src/main/java/com/zp/service/goods/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qc_interface/src/main/java/com/zp/service/goods/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_interface/target/classes/com/zp/service/goods/BrandService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_interface/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_interface/target/qc_interface-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_pojo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/qc_pojo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qc_pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_pojo/target/classes/com/zp/pojo/goods/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_pojo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_pojo/target/qc_pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/qc_servcie_goods/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qc_servcie_goods/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/src/main/java/com/zp/dao/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/qc_servcie_goods/src/main/java/com/zp/dao/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/src/main/java/com/zp/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qc_servcie_goods/src/main/java/com/zp/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/qc_servcie_goods/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/classes/com/zp/dao/BrandMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/classes/com/zp/service/impl/BrandServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/classes/dubbo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/classes/com/zp/dao/BrandMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/classes/com/zp/service/impl/BrandServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/classes/dubbo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/dubbo-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.12.1.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/mapper-4.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/mybatis-paginator-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/netty-3.2.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/netty-3.7.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-4.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/persistence-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/qc_common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/qc_common_service-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/qc_interface-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/qc_pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-2.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-2.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-jms-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-messaging-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/zkclient-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/qc_servcie_goods-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_servcie_goods/target/tomcat/logs/access_log.2020-03-07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/qc_web_manager/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qc_web_manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/src/main/java/com/zp/controller/goods/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qc_web_manager/src/main/java/com/zp/controller/goods/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/classes/com/zp/controller/goods/BrandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/classes/dubbo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/classes/com/zp/controller/goods/BrandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/classes/dubbo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/aliyun-sdk-oss-2.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/dubbo-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/ezmorph-1.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.12.1.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/jdom-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/json-lib-2.4-jdk15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/netty-3.2.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/netty-3.7.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/persistence-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/qc_common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/qc_common_web-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/qc_interface-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/qc_pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/qingcheng_pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-jms-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-messaging-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/zkclient-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/qc_web_manager-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qc_web_manager/target/tomcat/logs/access_log.2020-03-07" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +214,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -93,24 +254,95 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qc_web_manager/src/main/webapp" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/qc_web_manager/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/doc/nose" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/qc_common" />
       <recent name="$PROJECT_DIR$/qc_common_service" />
-      <recent name="$PROJECT_DIR$/qc_common_web" />
-      <recent name="$PROJECT_DIR$/qc_interface" />
     </key>
+  </component>
+  <component name="RunManager" selected="Maven.qc_web_manager">
+    <configuration default="true" type="DEPLOY_CLOUD_APP_RUN_CONFIGURATION" factoryName="Deploy to Mini Program">
+      <option name="alreadyReset" value="true" />
+      <option name="appVersion" />
+      <option name="cloudAppId" />
+      <option name="description" />
+      <option name="envType" />
+      <option name="onlyUpload" value="false" />
+      <option name="pathOrUrl" />
+      <option name="uploadType" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="qc_servcie_goods" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/qc_servcie_goods" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="qc_web_manager" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/qc_web_manager" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.qc_servcie_goods" />
+      <item itemvalue="Maven.qc_web_manager" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -138,56 +370,97 @@
       <option name="presentableId" value="Default" />
       <updated>1583579763001</updated>
       <workItem from="1583579766485" duration="4780000" />
-      <workItem from="1583587063793" duration="489000" />
+      <workItem from="1583587063793" duration="12381000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="代码升级_清理配置文件" />
+    <MESSAGE value="代码升级 清理配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码升级 清理配置文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="808" y="174" key="#Project_Structure" timestamp="1583583558119">
+    <state x="808" y="174" key="#Project_Structure" timestamp="1583644853222">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state x="808" y="174" key="#Project_Structure/0.23.1680.971@0.23.1680.971" timestamp="1583583558119" />
-    <state x="1021" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1583584240206">
+    <state x="808" y="174" key="#Project_Structure/0.23.1680.971@0.23.1680.971" timestamp="1583644853222" />
+    <state x="230" y="152" width="1071" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583659528490">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state x="1021" y="225" key="#com.intellij.ide.util.MemberChooser/0.23.1680.971@0.23.1680.971" timestamp="1583584240206" />
-    <state x="370" y="111" key="CommitChangelistDialog2" timestamp="1583587266970">
+    <state x="230" y="152" width="1071" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.971@0.23.1680.971" timestamp="1583659528490" />
+    <state x="1021" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1583644553996">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state x="370" y="111" key="CommitChangelistDialog2/0.23.1680.971@0.23.1680.971" timestamp="1583587266970" />
-    <state width="1638" height="303" key="GridCell.Tab.0.bottom" timestamp="1583586717463">
+    <state x="1021" y="225" key="#com.intellij.ide.util.MemberChooser/0.23.1680.971@0.23.1680.971" timestamp="1583644553996" />
+    <state x="370" y="111" key="CommitChangelistDialog2" timestamp="1583660540744">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.bottom/0.23.1680.971@0.23.1680.971" timestamp="1583586717463" />
-    <state width="1638" height="303" key="GridCell.Tab.0.center" timestamp="1583586717463">
+    <state x="370" y="111" key="CommitChangelistDialog2/0.23.1680.971@0.23.1680.971" timestamp="1583660540744" />
+    <state width="1638" height="450" key="GridCell.Tab.0.bottom" timestamp="1583659643760">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.center/0.23.1680.971@0.23.1680.971" timestamp="1583586717463" />
-    <state width="1638" height="303" key="GridCell.Tab.0.left" timestamp="1583586717462">
+    <state width="1638" height="450" key="GridCell.Tab.0.bottom/0.23.1680.971@0.23.1680.971" timestamp="1583659643760" />
+    <state width="1638" height="450" key="GridCell.Tab.0.center" timestamp="1583659643760">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.left/0.23.1680.971@0.23.1680.971" timestamp="1583586717462" />
-    <state width="1638" height="303" key="GridCell.Tab.0.right" timestamp="1583586717463">
+    <state width="1638" height="450" key="GridCell.Tab.0.center/0.23.1680.971@0.23.1680.971" timestamp="1583659643760" />
+    <state width="1638" height="450" key="GridCell.Tab.0.left" timestamp="1583659643759">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.right/0.23.1680.971@0.23.1680.971" timestamp="1583586717463" />
-    <state x="698" y="147" key="SettingsEditor" timestamp="1583586574007">
+    <state width="1638" height="450" key="GridCell.Tab.0.left/0.23.1680.971@0.23.1680.971" timestamp="1583659643759" />
+    <state width="1638" height="450" key="GridCell.Tab.0.right" timestamp="1583659643760">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state x="698" y="147" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1583586574007" />
-    <state x="432" y="238" width="816" height="540" key="find.popup" timestamp="1583586196218">
+    <state width="1638" height="450" key="GridCell.Tab.0.right/0.23.1680.971@0.23.1680.971" timestamp="1583659643760" />
+    <state width="1638" height="450" key="GridCell.Tab.1.bottom" timestamp="1583659643761">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state x="432" y="238" width="816" height="540" key="find.popup/0.23.1680.971@0.23.1680.971" timestamp="1583586196218" />
+    <state width="1638" height="450" key="GridCell.Tab.1.bottom/0.23.1680.971@0.23.1680.971" timestamp="1583659643761" />
+    <state width="1638" height="450" key="GridCell.Tab.1.center" timestamp="1583659643761">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="450" key="GridCell.Tab.1.center/0.23.1680.971@0.23.1680.971" timestamp="1583659643761" />
+    <state width="1638" height="450" key="GridCell.Tab.1.left" timestamp="1583659643761">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="450" key="GridCell.Tab.1.left/0.23.1680.971@0.23.1680.971" timestamp="1583659643761" />
+    <state width="1638" height="450" key="GridCell.Tab.1.right" timestamp="1583659643761">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state width="1638" height="450" key="GridCell.Tab.1.right/0.23.1680.971@0.23.1680.971" timestamp="1583659643761" />
+    <state x="698" y="147" key="SettingsEditor" timestamp="1583659308934">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="698" y="147" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1583659308934" />
+    <state x="578" y="268" key="extract.method.dialog" timestamp="1583641260633">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="578" y="268" key="extract.method.dialog/0.23.1680.971@0.23.1680.971" timestamp="1583641260633" />
+    <state x="432" y="238" width="816" height="540" key="find.popup" timestamp="1583659911725">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="432" y="238" width="816" height="540" key="find.popup/0.23.1680.971@0.23.1680.971" timestamp="1583659911725" />
     <state x="434" y="206" key="new project wizard" timestamp="1583584020076">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
     <state x="434" y="206" key="new project wizard/0.23.1680.971@0.23.1680.971" timestamp="1583584020076" />
+    <state x="505" y="236" width="670" height="676" key="search.everywhere.popup" timestamp="1583659813518">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="505" y="236" width="670" height="676" key="search.everywhere.popup/0.23.1680.971@0.23.1680.971" timestamp="1583659813518" />
   </component>
 </project>
