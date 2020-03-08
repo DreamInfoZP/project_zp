@@ -1,5 +1,5 @@
 node_modules/
-target/
+/target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -29,4 +29,3 @@ nbdist/
 
 ### vscode
 .vscode
-/qc_common/target/
