@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/ #,\u5206\u5272\u914D\u7F6E\u591A\u4E2A\u6CE8\u518C\u4E2D\u5FC3
+#  instance:
+#    hostname: zhoupeng #\u8DF3\u8F6C\u5230\u6307\u5B9A\u8FDE\u63A5\u5730\u5740
+spring:
+  application:
+    name: client

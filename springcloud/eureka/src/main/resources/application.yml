@@ -1,0 +1,15 @@
+#\u76F8\u4E92\u6CE8\u518C \u5B9E\u73B0\u9AD8\u53EF\u7528
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/ #\u6CE8\u518C\u4E2D\u5FC3\u7684\u5730\u5740
+    register-with-eureka: false #\u6307\u5B9A\u81EA\u5DF1\u662F\u6CE8\u518C\u4E2D\u5FC3\u4E0D\u5728\u6CE8\u518C\u4E2D\u5FC3\u6CE8\u518C
+#  server:
+#    enable-self-preservation: false #\u5173\u95ED\u81EA\u6211\u4FDD\u62A4\u673A\u5236
+
+spring:
+  application:
+    name: eureka #\u5F15\u7528\u540D\u79F0
+
+server:
+  port: 8761
