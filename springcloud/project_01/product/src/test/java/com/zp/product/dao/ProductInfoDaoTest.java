@@ -1,6 +1,5 @@
 package com.zp.product.dao;
 
-import com.zp.product.BaseTest;
 import com.zp.product.domain.ProductInfo;
 import org.junit.Assert;
 
@@ -9,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class ProductInfoDaoTest extends BaseTest {
+public class ProductInfoDaoTest {
 
     @Autowired
     private ProductInfoDao productInfoDao;

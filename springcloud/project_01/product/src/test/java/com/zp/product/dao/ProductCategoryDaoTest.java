@@ -1,16 +1,16 @@
 package com.zp.product.dao;
 
-import com.zp.product.BaseTest;
+import com.zp.product.ProductApplicationTests;
 import com.zp.product.domain.ProductCategory;
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-public class ProductCategoryDaoTest extends BaseTest {
+@Component
+public class ProductCategoryDaoTest extends ProductApplicationTests {
     @Autowired
     private ProductCategoryDao productCategoryDao;
 

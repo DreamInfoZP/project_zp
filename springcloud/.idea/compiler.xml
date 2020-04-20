@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,6 +10,7 @@
         <module name="project_01" />
         <module name="client" />
         <module name="product" />
+        <module name="order" />
         <module name="eureka" />
       </profile>
     </annotationProcessing>
@@ -17,8 +19,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="client" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="order" options="-parameters" />
       <module name="product" options="-parameters" />
-      <module name="project_01" options="-parameters" />
+      <module name="project_01" options="" />
     </option>
   </component>
 </project>
